@@ -8,5 +8,6 @@ public class ExitClickHandler : MonoBehaviour
     public void doquit()
     {
         Application.Quit();
+        Debug.Log("Successfully Exited the Game");
     }
 }
